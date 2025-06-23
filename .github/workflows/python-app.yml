@@ -46,6 +46,8 @@ jobs:
         ls -lha
         cd ..
         ls -lha
+        cd ~
+        ls -lha
         
     - name: Test with pytest
       run: |
