@@ -38,6 +38,7 @@ jobs:
         mkdir fun
         touch ./fun some_text.txt
         echo "Üdv a konténerből!" > ./fun/some_text.txt
+        ls -lha
         cat ./fun/some_text.txt
         
     - name: Test with pytest
