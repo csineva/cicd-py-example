@@ -49,6 +49,7 @@ jobs:
         cd ~
         ls -lha
         cd perflog
+        ls -lha
         
     - name: Test with pytest
       run: |
