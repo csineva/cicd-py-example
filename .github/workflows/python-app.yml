@@ -50,6 +50,10 @@ jobs:
         ls -lha
         cd perflog
         ls -lha
+        echo runner:
+        cat Runner.perf
+        echo worker:
+        cat Worker.perf
         
     - name: Test with pytest
       run: |
