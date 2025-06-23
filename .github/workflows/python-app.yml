@@ -44,6 +44,8 @@ jobs:
         cat requirements.txt
         cd ..
         ls -lha
+        cd ..
+        ls -lha
         
     - name: Test with pytest
       run: |
