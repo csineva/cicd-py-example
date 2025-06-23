@@ -40,6 +40,8 @@ jobs:
         echo "Üdv a konténerből!" > ./fun/some_text.txt
         ls -lha
         cat ./fun/some_text.txt
+        echo "requirement.txt tartalma:"
+        cat requirements.txt
         
     - name: Test with pytest
       run: |
